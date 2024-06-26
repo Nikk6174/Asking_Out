@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Playwrite MX", cursive;
+
+}
+
+body{
+    background-image: url("image.png") ;
+}
+
+.msg{
+    background-color: pink;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 136px 136px 0px;
+    padding: 41px;
+    height: 136px;
+    opacity: 0.7;
+    border-radius: 47px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.buttons{
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 226px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 42px;
+    height: 80px;
+    /* background-color: pink; */
+    opacity: 1;
+}
+
+.yes button{
+    border: 2px solid red;
+    display: flex;
+    width: 150px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 320px;
+    top: 20px;
+    background-color: pink;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 22px;
+
+}
+
+.no{
+    position: relative;
+}
+ 
+#no_button{
+    border: 2px solid red;
+    display: flex;
+    width: 150px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    transition: 0.2s ease-in;
+    left: 901px;
+    top: 420px;
+    background-color: pink;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 22px;
+}
