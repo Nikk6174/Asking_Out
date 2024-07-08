@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Playwrite MX", cursive;
+
+}
+
+body{
+    background-image: url("image.png") ;
+}
+
+.msg{
+    text-align: center;
+    background-color: pink;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 136px 136px 0px;
+    padding: 41px;
+    height: 250px;
+    opacity: 0.7;
+    border-radius: 47px;
+    font-size: 30px;
+    font-weight: 600;
+}
